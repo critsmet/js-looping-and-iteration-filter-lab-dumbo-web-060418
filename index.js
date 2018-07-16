@@ -9,7 +9,10 @@ function fuzzyMatch(drivers, name){
   return drivers.filter(function (driver) { 
     return driver.slice(0, length) === name; });
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 41b1c39bc77fbb8d1b583ef5b338f3c205e9ed55
 function matchName (list, name) {
   return list.filter(function (driver) {
     return driver.name.toLowerCase() === name.toLowerCase();
